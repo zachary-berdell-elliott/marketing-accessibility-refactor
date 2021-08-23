@@ -1,3 +1,5 @@
+/* global styling properties for the document */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* styling for the header and the navigation contained inside */
 
 header {
     padding: 20px;
@@ -40,11 +44,15 @@ header nav a {
     text-decoration: none;
 }
 
+/* sets the default paragraph font size to 16 pixels */
+
 p {
     font-size: 16px;
 }
 
-.hero {
+/* This styles the banner that can be seen under the header */
+
+.banner-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
